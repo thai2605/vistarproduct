@@ -1,5 +1,14 @@
-
-
+$('.slide-wrapper').slick({
+  slidesToShow: 1,
+  slidesToScroll:1,
+  adaptiveHeight:true,
+  infinite: true,
+  arrows:true,
+  autoplay:true,
+  autoplaySpeed:1500,
+  fade: true,
+  cssEase: 'linear'
+});
 
 $('.products-list-slider').slick({
   // centerMode: true,
@@ -33,14 +42,3 @@ $('.products-list-slider').slick({
  
 });
 
-$('.slide-wrapper').slick({
-  slidesToShow: 1,
-  slidesToScroll:1,
-  adaptiveHeight:true,
-  infinite: true,
-  arrows:true,
-  autoplay:true,
-  autoplaySpeed:1500,
-  fade: true,
-  cssEase: 'linear'
-});
