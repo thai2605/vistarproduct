@@ -9,7 +9,6 @@ $('.slide-wrapper').slick({
   fade: true,
   cssEase: 'linear'
 });
-
 $('.products-list-slider').slick({
   // centerMode: true,
   // centerPadding: '60px',
