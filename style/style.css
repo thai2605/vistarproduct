@@ -241,7 +241,7 @@
 
   .count-container {
     overflow: hidden;
-    background-image: url(/images/couterbg.jpg);
+    background-image: url(../images/couterbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #f1f1f1;
